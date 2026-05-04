@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 const allowedOrigins = [
-  process.env.CLIENT_URL || "https://victorpinto-cryptocloneproject.netlify.app",
+  process.env.CLIENT_URL || "https://asura-coinbase-clone.netlify.app/",
   "http://localhost:5173",
 ];
 
